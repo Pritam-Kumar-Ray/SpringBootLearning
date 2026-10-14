@@ -58,7 +58,6 @@ public class EmployeeController {
     @ResponseStatus(HttpStatus.OK)
     @DeleteMapping("employees/{id}")
     public String delete(@PathVariable String id) throws Exception {
-
         service.deleteEmployee(id);
         return String.format("Employee with id: %s successfully deleted.", id);
 

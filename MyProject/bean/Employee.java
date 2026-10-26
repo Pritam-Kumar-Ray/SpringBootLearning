@@ -6,7 +6,6 @@ public class Employee {
     private long salary;
     private String designation;
 
-
     public Employee(String id, String name, long salary, String designation) {
         this.id = id;
         this.name = name;

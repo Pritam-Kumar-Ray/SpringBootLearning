@@ -28,5 +28,4 @@ public class EmployeeRequest {
     public void setDesignation(String designation) {
         this.designation = designation;
     }
-
 }

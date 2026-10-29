@@ -1,5 +1,6 @@
 package com.example.MyProject.bean;
 
+@ToString
 public class EmployeeRequest {
     private String name;
     private long salary;
